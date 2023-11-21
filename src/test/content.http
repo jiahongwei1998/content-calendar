@@ -9,7 +9,7 @@ POST http://localhost:8080/api/content
 Content-Type: application/json
 {
   "id": 2,
-  "title": "My Second Blog Post",
+  "title": "My second blog post",
   "desc": "My second blog post",
   "status": "IDEA",
   "contentType": "ARTILE",

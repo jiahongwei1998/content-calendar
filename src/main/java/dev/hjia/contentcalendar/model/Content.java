@@ -2,9 +2,11 @@ package dev.hjia.contentcalendar.model;
 
 import java.time.LocalDateTime;
 
+import jakarta.validation.constraints.NotBlank;
+
 public record Content(
     Integer id,
-    String title,
+    @NotBlank String title,
     String desc,
     Status status,
     Type contentType,
