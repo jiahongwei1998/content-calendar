@@ -29,7 +29,7 @@ public class ContentCollectionRepository {
 
   @PostConstruct
   private void init() {
-    Content content = new Content(1, "My First Blog Post", "My first blog post", Status.IDEA, Type.ARTILE,
+    Content content = new Content(1, "My First Blog Post", "My first blog post", Status.IDEA, Type.ARTICLE,
         LocalDateTime.now(), null, "");
     contents.add(content);
   }

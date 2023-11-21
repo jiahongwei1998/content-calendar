@@ -8,11 +8,10 @@ GET http://localhost:8080/api/content/1
 POST http://localhost:8080/api/content
 Content-Type: application/json
 {
-  "id": 2,
   "title": "My second blog post",
   "desc": "My second blog post",
   "status": "IDEA",
-  "contentType": "ARTILE",
+  "contentType": "ARTICLE",
   "dateCreated": "2023-11-20T22:12:48.370885",
   "dateUpdated": null,
   "url": ""
@@ -26,7 +25,7 @@ Content-Type: application/json
   "title": "My First Blog Post!!!",
   "desc": "My First blog post!!!",
   "status": "IDEA",
-  "contentType": "ARTILE",
+  "contentType": "ARTICLE",
   "dateCreated": "2023-11-20T22:12:48.370885",
   "dateUpdated": "2023-11-20T22:12:48.370885",
   "url": "http://localhost:8080/my-first-blog-post"
