@@ -39,6 +39,16 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/container-images.
 
 As long as you have Docker desktop running you can run the following command to create an OCI image:
 
+WARNING: jdk-18 does NOT work, use openjdk-17
+
+`sudo apt-get purge openjdk\*`
+
+`sudo apt install openjdk-17-jdk openjdk-17-jre`
+
+`mvnw clean package`
+
+`export POSTGRES_IP=$hostip`
+
 `./mvnw spring-boot:build-image`
 
 `docker image ls -a`
